@@ -20,4 +20,4 @@ If you'd like to be able to access the instance from the host without the contai
 
 A complete example:
 
-`docker run -ti --rm  -p 80:3030 -e ICINGA2_HOSTNAME=192.168.1.2 -e ICINGA2_USERNAME=dashing -e ICINGA2_PASSWORD=ohh0ooB2Su5hiwoh icinga2-dashing`
+`docker run -ti --rm  -p 80:3030 -e ICINGA2_HOSTNAME=192.168.1.2 -e ICINGA2_USERNAME=dashing -e ICINGA2_PASSWORD=ohh0ooB2Su5hiwoh lmnetworks/dashing-icinga2`
